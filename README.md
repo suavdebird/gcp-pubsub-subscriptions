@@ -1,4 +1,4 @@
-# deploy-cloudrun
+# gcp-sync-pubsub
 
 The `deploy-cloudrun` GitHub Action deploys to Google [Cloud Run][cloud-run]. It
 can deploy a container image or from source, and the resulting service URL is

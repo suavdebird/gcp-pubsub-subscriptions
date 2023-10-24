@@ -1,7 +1,7 @@
 {
-  "name": "deploy-cloudrun",
-  "version": "1.0.2",
-  "description": "Github Action: Deploy to Google Cloud Run",
+  "name": "gcp-sync-pubsub",
+  "version": "1.0.0",
+  "description": "Github Action: Setup Google Cloud PubSub Topics and Subscriptions",
   "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist/ && ncc build -m src/main.ts -o dist/main",
@@ -12,22 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/google-github-actions/deploy-cloudrun.git"
+    "url": "https://github.com/suavdebird/gcp-pubsub-subscriptions.git"
   },
   "keywords": [
     "actions",
     "google",
-    "cloud run",
-    "cloud",
-    "run",
-    "containers"
+    "pubsub",
+    "subscriptions"
   ],
-  "author": "Google LLC",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/google-github-actions/deploy-cloudrun/issues"
-  },
-  "homepage": "https://github.com/google-github-actions/deploy-cloudrun#readme",
   "dependencies": {
     "@actions/core": "^1.10.0",
     "@actions/exec": "^1.1.1",
